@@ -1,0 +1,41 @@
+[
+    {
+        "ProjectId": "1879048422",
+        "FileName": "File01.pdf",
+        "Document": {
+            "DocumentTypeId": "1879048227",
+            "Revision": "A",
+            "Attribute1": "ATTR1-001",
+            "Author": "Stephen King",
+            "AuthorisedBy": "Me Myself and Irene",
+            "Category": "CAT001",
+            "HasFile": true
+        }
+    },
+    {
+        "ProjectId": "1879048422",
+        "FileName": "File02.pdf",
+        "Document": {
+            "DocumentTypeId": "1879048227",
+            "Revision": "A",
+            "Attribute1": "ATTR1-002",
+            "Author": "Steve Smith",
+            "AuthorisedBy": "Me Myself and Irene",
+            "Category": "CAT002",
+            "HasFile": true
+        }
+    },
+    {
+        "ProjectId": "1879048422",
+        "FileName": "File03.pdf",
+        "Document": {
+            "DocumentTypeId": "1879048227",
+            "Revision": "B",
+            "Attribute1": "ATTR1-003",
+            "Author": "Tom Hardy",
+            "AuthorisedBy": "Me Myself and Irene",
+            "Category": "CAT003",
+            "HasFile": true
+        }
+    }
+]

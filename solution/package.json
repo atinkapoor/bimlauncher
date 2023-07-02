@@ -1,0 +1,31 @@
+{
+  "name": "bimlauncher-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx jest",
+    "build": "npx tsc",
+    "start": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@types/jest": "^29.5.2",
+    "@types/uuid": "^9.0.2",
+    "typescript": "^5.1.6",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "uuid": "^9.0.0",
+    "xml-js": "^1.6.11"
+  }
+}
