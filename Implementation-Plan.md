@@ -51,10 +51,10 @@ More details: **BRIEF.md**
 - We could not find the API to transfer documents from one project to another
 - There is API to download documents: https://help.aconex.com/api-developer-guide/document#api_guide_CORE275857A88A7F4B5D9CCAAA3056C9ED52
 - One option is to Download document and then upload with same Document Number / Document Id, but we are not sure if this is the correct implementation
-- It is advised to do a Spike around this. This might involve reaching out to Aconex team to get clarity on this.
+- It is advised to do a **Spike** around this. This might involve reaching out to Aconex team to get clarity on this.
 - Eventually this feature should work in a way that we can supply `From Project Id`, `Document Id`, and `To Project Id`, and it should transfer documents over.
 - We can learn more about Transfer feature here: https://help.aconex.com/en/DisplayContent/transmit-your-document
 - Unit and Integration tests need to be created for this feature. The tests should cover validating that documents are moved over to other project.
-- We can use `View Document Metadata1` API, to get details of the document, in which we can get Transmittal information using this tag: `<ReviewSource></ReviewSource>`
+- We can use `View Document Metadata` API, to get details of the document, in which we can get Transmittal information using this tag: `<ReviewSource></ReviewSource>`
 - Sample implementation in Typescript for download documents is provided in `solution` folder
 
